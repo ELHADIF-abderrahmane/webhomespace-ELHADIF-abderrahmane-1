@@ -1,0 +1,85 @@
+.button {
+    background-color: #E74646; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button2 {background-color: #569DAA;} /* Blue */
+  .button3 {background-color: #394867;} /* Red */ 
+  .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    ;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+
+  }
+
+  .container {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+  }
+  
+  #logout {
+    color: #d61010;
+  }
+  
+  #logout:hover {
+    color: #088395;
+  }
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 20px;
+}
+.head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #394867;
+  font-family: 'Courier New', Courier, monospace;
+}
+.download-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #007bff;
+  border-radius: 50%;
+  color: #fff;
+}
+
+.download-icon:hover {
+  background-color: #088395;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+th {
+  background-color: #FFEEB3;
+}
+tr:hover {
+  background-color: #B8E7E1;
+}

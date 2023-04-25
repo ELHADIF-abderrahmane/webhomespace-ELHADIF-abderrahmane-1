@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Page</title>
+</head>
+<body>
+    <h1>Search for Files</h1>
+    <form action="/search" method="post">
+        <label for="query">Search Query:</label>
+        <input type="text" name="query" id="query">
+        <input type="submit" value="Search">
+    </form>
+    <div>
+        <h1>Search Results</h1>
+        {% if matching_files %}
+        <ul>
+            {% for file in matching_files %}
+            <li>{{ file }}</li>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <p>No matching files found.</p>
+        {% endif %}
+        </div>
+        <a href="/home">Back to Home Page</a>
+</body>
+</html>
